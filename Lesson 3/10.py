@@ -4,9 +4,7 @@
 def sum_Fibonachi():
     N = int(input('Введите количество чисел: '))
     K = int(input('Введите порядковый номер: '))
-    first = 0
-    second = 1
-    sum = 0
+    first, second, sum = 0, 1, 0
     if K < 3:
         sum += 1
 
